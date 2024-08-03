@@ -43,7 +43,7 @@ Text Extractor is a Python-based tool that extracts text from images using OCR (
     .\venv\Scripts\activate
 
   # On macOS and Linux
-    ```sh
+    
     source venv/bin/activate
 
 5. Install the dependencies:
