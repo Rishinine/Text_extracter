@@ -34,18 +34,20 @@ Text Extractor is a Python-based tool that extracts text from images using OCR (
    cd Text_extracter
    
 4. Create a virtual environment
-  ```sh
+   ```sh
    python -m venv venv
    
 6. Activate the virtual environment
    # On Windows
-```sh
+   ```sh
    .\venv\Scripts\activate
 
   # On macOS and Linux
+    ```sh
     source venv/bin/activate
 
 5. Install the dependencies:
+  ```sh
   pip install -r requirements.txt
 
 # Usage
@@ -54,9 +56,11 @@ Running the Script
 To extract text from an image, make the "extract. sh* script executable and run it:
 
 1. Make the script executable:
+  ```sh
   chmod +x extract.sh
 
 2. Run the script:
+    ```sh
     ./extract.sh
 
 # Adding to PATH
@@ -65,10 +69,12 @@ To make the script accessible from anywhere on your terminal:
 
 1. Add the directory containing "extract.sh* to your PATH. Open your *.bashrc", *.zshrc", or
    equivalent file:
-     nano ~/.bashrc
+    ```sh
+    nano ~/.bashrc
 2. Add the following line at the end of the file:
+    ```sh
     export PATH="$PATH:/path/to/Text_extracter"
-  # Replace /path/to/Text_extracter with the actual path to the directory.
+# Replace /path/to/Text_extracter with the actual path to the directory.
 
 3. Reload your shell configuratios
   source ~/.bashrc
