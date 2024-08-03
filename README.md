@@ -47,7 +47,6 @@ Text Extractor is a Python-based tool that extracts text from images using OCR (
     source venv/bin/activate
 
 5. Install the dependencies:
-  ```sh
   pip install -r requirements.txt
 
 # Usage
