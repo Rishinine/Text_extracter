@@ -26,11 +26,11 @@ Text Extractor is a Python-based tool that extracts text from images using OCR (
 ### Setup Virtual Environment
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/Rishinine/Text_extracter.git
+  ```sh
+  git clone https://github.com/Rishinine/Text_extracter.git
 
 2. Change to the project directory:
-   cd Text_extracter
+  cd Text_extracter
    
 4. Create a virtual environment
    python -m venv venv
