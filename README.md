@@ -34,7 +34,7 @@ Text Extractor is a Python-based tool that extracts text from images using OCR (
     cd Text_extracter
    
 5. Create a virtual environment
-      python -m venv venv
+    python -m venv venv
        
 6. Activate the virtual environment
    # On Windows
